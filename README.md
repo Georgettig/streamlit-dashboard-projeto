@@ -13,8 +13,8 @@ O objetivo é fornecer insights rápidos e visuais para apoiar a tomada de decis
 
 ✨ Funcionalidades
 
-✔️ Upload de arquivos do tipo .json
-✔️ Filtros por categorias, preços e datas
+✔️ Upload de arquivos do tipo .json\n
+✔️ Filtros por categorias, preços e datas\n
 ✔️ Gráficos com indicadores de desempenho
 ✔️ Análises de valores com formatação monetária (R$)
 ✔️ Possibilidade de download dos dados filtrados
