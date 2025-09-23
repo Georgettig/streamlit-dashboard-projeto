@@ -1,4 +1,4 @@
-📊 Dashboard de Contratos em Streamlit
+📊 Dashboard de Vendas em Streamlit
 
 Este projeto é um dashboard interativo desenvolvido em Python, através das bibliotecas Streamlit + Plotly para análise de dados de vendas fictícias.
 O objetivo é fornecer insights rápidos e visuais para apoiar a tomada de decisão gerencial.
