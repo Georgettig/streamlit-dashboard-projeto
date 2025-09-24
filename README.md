@@ -21,12 +21,9 @@ O objetivo é fornecer insights rápidos e visuais para apoiar a tomada de decis
 
 🔧 Como rodar o projeto localmente
 
-- Utilize os seguintes comandos em seu terminal:  
+- Clone esse repositório:
+```bash  
 git clone https://github.com/Georgettig/streamlit-dashboard-projeto.git  
 cd streamlit-dashboard-projeto  
 pip install -r requirements.txt  
 streamlit run app.py  
-  
-📌 Sobre o Autor
-
-Desenvolvido por Guilherme Georgetti, Engenheiro de Produção com experiência em Python, Data Analytics e Automação de Processos.
