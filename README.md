@@ -8,8 +8,7 @@ O objetivo é fornecer insights rápidos e visuais para apoiar a tomada de decis
 - Python 3.10+  
 - Streamlit para criação da interface web  
 - Pandas para manipulação de dados  
-- Plotly para visualização  
-- OpenPyXL para leitura de planilhas Excel  
+- Plotly para visualização    
 
 ✨ Funcionalidades
 
