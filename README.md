@@ -19,6 +19,10 @@ O objetivo é fornecer insights rápidos e visuais para apoiar a tomada de decis
 ✔️ Possibilidade de download dos dados filtrados  
 ✔️ Interface simples, intuitiva e responsiva  
 
+📌 Sobre o Autor
+
+- Desenvolvido por Guilherme Georgetti, Engenheiro de Produção com experiência em Python, Data Analytics e Automação de Processos.
+
 🔧 Como rodar o projeto localmente
 
 - Clone esse repositório:
