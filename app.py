@@ -6,8 +6,7 @@ from graficos import graf_map, graf_line, graf_barra, graf_categoria, graf_rec_v
 st.set_page_config(layout="wide")
 st.title("Dashboard de Vendas")
 
-st.sidebar.title("Fitlro de Vendedores")
-
+st.sidebar.title("Fitlros Especiais")
 filtro_vendedor = st.sidebar.multiselect('Vendedores', sorted(df['Vendedor'].unique()))
 if filtro_vendedor:
     df = df[df['Vendedor'].isin(filtro_vendedor)]
@@ -19,15 +18,10 @@ with st.expander('Colunas'):
         list(df.columns)
         )
 
-st.sidebar.title("Filtro de Categoria")
-with st.sidebar.expander('Categoria do Produto'):
-    categorias = st.multiselect(
-        'Selecione as Categorias',
-        df['Categoria do Produto'].unique(),
-        df['Categoria do Produto'].unique()
-        )
+filtro_categoria = st.sidebar.multiselect('Categorias', sorted(df['Categoria do Produto'].unique()))
+if filtro_categoria:
+    df = df[df['Categorias'].isin(filtro_categoria)]
 
-st.sidebar.title("Filtro de Preços")
 with st.sidebar.expander('Preço do Produto'):
     preco = st.slider(
         'Selecione o Preço',
@@ -44,7 +38,6 @@ with st.sidebar.expander('Data da Compra'):
     )
 
 query = '''
-    `Categoria do Produto` in @categorias and \
     @preco[0] <= Preço <= @preco[1] and \
     @data[0] <= `Data da Compra` <= @data[1]
 '''
