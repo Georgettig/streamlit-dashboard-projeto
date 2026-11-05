@@ -38,8 +38,24 @@ O dashboard permite explorar diferentes dimensões dos dados, identificar padrõ
 | JSON           | Armazenamento dos dados de vendas |
 | Git e Github   | Versionamento e documentação do projeto |
 
-## 📂 Estrutura do Projeto
+## 📈 Análises e Visualizações
 
+**Receita por Estado**
+Visualização geográfica da distribuição de receita entre os estados brasileiros. O tamanho dos marcadores representa o valor da receita gerada em cada localidade.
+
+**Evolução Mensal da Receita**
+Gráfico de linhas que apresenta a evolução da receita ao longo dos meses, permitindo comparar o desempenho entre diferentes anos e identificar tendências temporais.
+
+**Receita por Categoria de Produto**
+Gráfico de barras que compara a receita total de cada categoria de produto, facilitando a identificação das categorias com maior contribuição financeira.
+
+**Desempenho dos Vendedores**
+Análise comparativa composta por duas visualizações:
+- Receita total gerada por vendedor.
+- Quantidade de vendas realizadas por vendedor.
+
+## 📂 Estrutura do Projeto
+```
 streamlit-dashboard-projeto/
 │
 ├── app.py                  # Aplicação principal Streamlit
@@ -55,42 +71,52 @@ streamlit-dashboard-projeto/
 │
 ├── requirements.txt        # Dependências do projeto
 └── README.md               # Documentação do projeto
+```
 
 ## ⚙️ Como Executar o Projeto
 
 1. Clone o repositório
-
+```
 git clone https://github.com/Georgettig/streamlit-dashboard-projeto.git
+```
 
 2. Acesse o diretório
-
+```
 cd streamlit-dashboard-projeto
+```
 
 3. Crie um ambiente virtual
-
+```
 python -m venv .venv
+```
 
 Ative o ambiente virtual:
 
 Windows
-
+```
 .venv\Scripts\activate
+```
 
 Linux ou macOS
-
+```
 source .venv/bin/activate
+```
 
 4. Instale as dependências
-
+```
 pip install -r requirements.txt
+```
 
 Caso o arquivo requirements.txt ainda não esteja disponível, instale as principais bibliotecas:
 
+```
 pip install streamlit pandas plotly
+```
 
 5. Execute a aplicação
-
+```
 streamlit run app.py
+```
 
 ## 🧠 Competências Desenvolvidas
 
@@ -103,3 +129,10 @@ streamlit run app.py
 - Aplicação de filtros e exportação de dados.
 - Organização modular de aplicações Python.
 
+## 👨‍💻 Autor
+
+Guilherme Georgetti Albuquerque Galvão
+
+Analista de Dados / Engenheiro de Produção — UNESP
+
+🔗 LinkedIn: www.linkedin.com/in/guilherme-georgetti
