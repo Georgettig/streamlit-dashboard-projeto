@@ -8,7 +8,9 @@ O projeto demonstra a aplicação de técnicas de análise de dados e visualiza�
 
 ## 📸 Visão Geral
 
-<img width="1364" height="629" alt="image" src="https://github.com/user-attachments/assets/89128d4b-29f1-49b8-88b6-9b697ab215ca" />
+<img width="1280" height="579" alt="tela-inicial" src="https://github.com/user-attachments/assets/8ae9bfb4-2cf7-43c4-945e-c154bc106e73" />
+<img width="1280" height="579" alt="tela-receita" src="https://github.com/user-attachments/assets/6e854409-bb63-4c54-a4e5-1b340a8123c7" />
+<img width="1280" height="579" alt="tela-vendedores" src="https://github.com/user-attachments/assets/1aa0d1f6-5565-4246-8883-b54a5ddf3a5b" />
 
 ## 🎯 Objetivo do Projeto
 
